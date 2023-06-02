@@ -1,0 +1,16 @@
+- hosts: "*"
+  become: yes
+  tasks:
+     - name: apt
+       apt:
+          update_cache: yes
+          upgrade: 'yes'
+     - name: install net tools
+       apt:
+          name: 
+            - net-tools
+            - conky
+          state: present
+          update_cache: true
+       become: true
+
