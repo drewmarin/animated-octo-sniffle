@@ -12,3 +12,4 @@ Ansible Playground
 
 
 ## Resources used to learn:
+[Techno Tim: Automate EVERYTHING with Ansible! ](https://www.youtube.com/watch?v=w9eCU4bGgjQ)
